@@ -5,12 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3a2b7c3-32c0-4a5a-bb0d-76edda359789" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/controllers/ProdutoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/entities/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/repositories/ProdutoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/services/ProdutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/Initializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/repositories/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/services/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/auth/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/check/HealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/jwt/JwtRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/jwt/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/config/jwt/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/controllers/PedidoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/entities/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/exceptions/ProductNullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/exceptions/ProductPriceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/repositories/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/services/PedidoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/youssfbr/AuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/youssfbr/ProdutoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/github/youssfbr/RestSpringApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/controllers/ProdutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/controllers/ProdutoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/entities/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/entities/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/repositories/ProdutoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/repositories/ProdutoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/youssfbr/services/ProdutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/import.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +65,8 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -66,8 +94,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\workspace\spring\2022\REST-spring\src\main\resources" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.github.youssfbr" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AuthTest.deveRetornarSucessoComCredenciaisValidas">
     <configuration name="RestSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.youssfbr.RestSpringApplication" />
       <module name="REST-spring" />
@@ -81,9 +112,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.youssfbr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.youssfbr" />
+      <option name="MAIN_CLASS_NAME" value="com.github.youssfbr.AuthTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.deveRetornarErroComCredenciaisInvalidas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.youssfbr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.youssfbr" />
+      <option name="MAIN_CLASS_NAME" value="com.github.youssfbr.AuthTest" />
+      <option name="METHOD_NAME" value="deveRetornarErroComCredenciaisInvalidas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.deveRetornarErroComCredenciaisValidas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.youssfbr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.youssfbr" />
+      <option name="MAIN_CLASS_NAME" value="com.github.youssfbr.AuthTest" />
+      <option name="METHOD_NAME" value="deveRetornarErroComCredenciaisValidas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthTest.deveRetornarSucessoComCredenciaisValidas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="REST-spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.youssfbr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.youssfbr" />
+      <option name="MAIN_CLASS_NAME" value="com.github.youssfbr.AuthTest" />
+      <option name="METHOD_NAME" value="deveRetornarSucessoComCredenciaisValidas" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RestSpringApplication" />
+        <item itemvalue="JUnit.AuthTest.deveRetornarSucessoComCredenciaisValidas" />
+        <item itemvalue="JUnit.AuthTest.deveRetornarErroComCredenciaisInvalidas" />
+        <item itemvalue="JUnit.AuthTest.deveRetornarErroComCredenciaisValidas" />
+        <item itemvalue="JUnit.AuthTest" />
+        <item itemvalue="Application.com.github.youssfbr.RestSpringApplication" />
       </list>
     </recent_temporary>
   </component>
